@@ -1,0 +1,6 @@
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparksUnity\Assets\GameSparks\GameSparksRT.dll
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparksUnity\Assets\GameSparks\GameSparksRT.XML
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparks.Realtime\GameSparksRT\obj\Release\GameSparksRT.csprojAssemblyReference.cache
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparks.Realtime\GameSparksRT\obj\Release\GameSparksRT.csproj.CoreCompileInputs.cache
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparks.Realtime\GameSparksRT\obj\Release\GameSparksRT.csproj.CopyComplete
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparks.Realtime\GameSparksRT\obj\Release\GameSparksRT.dll

@@ -9,7 +9,8 @@
     <AssemblyName>GameSparks</AssemblyName>
     <ReleaseVersion>1.0.0.0</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,12 +33,9 @@
     <DocumentationFile>bin\Release\GameSparks.XML</DocumentationFile>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(TargetFrameworkVersion)' == 'v2.0' Or '$(TargetFrameworkVersion)' == 'v3.0' Or '$(TargetFrameworkVersion)' == 'v3.5'">
+  <PropertyGroup Condition="'$(TargetFrameworkVersion)' == 'v2.0' Or '$(TargetFrameworkVersion)' == 'v4.6.1' Or '$(TargetFrameworkVersion)' == 'v3.5'">
     <DefineConstants>$(DefineConstants);DOTNET_OLD</DefineConstants>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Properties\AssemblyInfo.cs" />
     <Compile Include="ClientEngine\Common\ConcurrentBatchQueue.Net20.cs" />
@@ -78,7 +76,7 @@
     <Compile Include="IQueueWriter.cs" />
     <Compile Include="QueueReader.cs" />
     <Compile Include="QueueWriter.cs" />
-	<Compile Include="GameSparksFormUpload2.cs" />
+    <Compile Include="GameSparksFormUpload2.cs" />
     <Compile Include="WebSocket4Net\WebSocket4Net\Command\BadRequest.cs" />
     <Compile Include="WebSocket4Net\WebSocket4Net\Command\Binary.cs" />
     <Compile Include="WebSocket4Net\WebSocket4Net\Command\Close.cs" />
@@ -127,12 +125,15 @@
     <Compile Include="ClientEngine\Proxy\HttpConnectProxy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup />
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\bccrypto-csharp-1.8.1\crypto\BouncyCastle_GameSparks.csproj">
       <Project>{4C235092-820C-4DEB-9074-D356FB797D8B}</Project>
       <Name>BouncyCastle_GameSparks</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2019.3.7f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.1-api\System.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

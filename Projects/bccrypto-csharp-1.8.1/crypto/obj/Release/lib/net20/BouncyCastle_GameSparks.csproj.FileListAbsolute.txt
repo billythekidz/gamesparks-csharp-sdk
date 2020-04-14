@@ -1,0 +1,5 @@
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparksUnity\Assets\GameSparks\BouncyCastle_GameSparks.dll
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\GameSparksUnity\Assets\GameSparks\BouncyCastle.xml
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\bccrypto-csharp-1.8.1\crypto\obj\Release\lib\net20\BouncyCastle_GameSparks.csprojAssemblyReference.cache
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\bccrypto-csharp-1.8.1\crypto\obj\Release\lib\net20\BouncyCastle_GameSparks.csproj.CoreCompileInputs.cache
+C:\Users\NguyenVanThe_5120353\Git\gamesparks-csharp-sdk\Projects\bccrypto-csharp-1.8.1\crypto\obj\Release\lib\net20\BouncyCastle_GameSparks.dll
